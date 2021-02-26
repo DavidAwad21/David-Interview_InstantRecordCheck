@@ -12,3 +12,5 @@ Next, from the root directory, run the following command:
 # Run
 Finally, from the root directory, run the following command:
 `npm run-script start`
+Access the app in your browser at
+`localhost:8080`
