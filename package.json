@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/InstantRecordCheck/interview.project#readme",
   "dependencies": {
+    "file-loader": "^6.2.0",
     "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
