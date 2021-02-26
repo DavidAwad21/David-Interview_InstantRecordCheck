@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import "../shared/scss/style.scss";
+import logo from '../shared/img/LOGO.png';
 
 export function Login() {
     const [email, setEmail] = useState("");
@@ -6,13 +8,13 @@ export function Login() {
     const [remember, setRemember]= useState(false);
 
     return (
-        <div>
+        <body class="irc">
             <div class="container-fluid h-100">
                 <div class="login-container h-100 d-flex align-items-center justify-content-center">
                     <div class="login-form">
                         <div class="page-header mb-4" id="banner">
                             <div class="text-center">
-                                <a href="#"><img src="../shared/img/LOGO.png" /></a>
+                                <a href="#"><img src={logo} /></a>
                             </div>
                         </div>
                         <div class="main-div">
@@ -59,6 +61,6 @@ export function Login() {
                     </div>
                 </div>
             </section>
-        </div>
+        </body>
     )
 }
